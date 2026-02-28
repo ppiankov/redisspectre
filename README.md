@@ -20,6 +20,19 @@ redisspectre audits Redis instances for waste and hygiene issues: memory fragmen
 - Not a Redis proxy or middleware
 - Not a performance benchmark tool
 
+## Install
+
+```bash
+# Homebrew
+brew install ppiankov/tap/redisspectre
+
+# Go
+go install github.com/ppiankov/redisspectre/cmd/redisspectre@latest
+
+# Binary: download from GitHub Releases
+# https://github.com/ppiankov/redisspectre/releases
+```
+
 ## What it audits
 
 | Resource | Signal | Severity |
